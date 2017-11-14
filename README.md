@@ -14,3 +14,5 @@ with mean = 0 and std = sqrt(2Dt).
 **HeavyTail_sim.m:** simulation of Listeria spread where the size of the hop is sampled (using inverse transform sampling)
 from a custom heavy-tailedp polynomial 1/u^alpha, where alpha determines the heaviness of the distribution's tail. The
 distribution's second moment converges only when alpha > 3.
+
+**Example_Foci.pdf** shows an example of the output of HeavyTail_sim.m (left) and Gaussian_sim.m (right).
