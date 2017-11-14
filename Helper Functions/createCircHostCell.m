@@ -1,0 +1,6 @@
+function hostCell = createCircHostCell(hostSize)
+% host cell coordinates
+hostCell = [...                     
+    hostSize*cos(linspace(0,2*pi))',...   
+    hostSize*sin(linspace(0,2*pi))'];
+end
