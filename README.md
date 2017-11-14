@@ -9,7 +9,7 @@ of a reaction-diffusion equation (diffusion + growth) equals the sqrt(4Dk) as th
 is approximately similar to the slope of the radial distance to the center of mass.
 
 **Note:** you can uncomment lines 7-19 of **simConvexHullNEW.m** to watch the progression of the simulation. It will be plotted
-according to the variable called **plotevery** in line 19.
+according to the variable called **plotevery** in line 19 of the main program.
 
 **Gaussian_sim.m:** simulation of Listeria spread where the size of the hop is sampled from a Normal distribution
 with mean = 0 and std = sqrt(2Dt).
