@@ -12,7 +12,7 @@ is approximately similar to the slope of the radial distance to the center of ma
 according to the variable called **plotevery** in line 19 of the main program.
 
 **Gaussian_sim.m:** simulation of Listeria spread where the size of the hop is sampled from a Normal distribution
-with mean = 0 and std = sqrt(2Dt).
+with mean = 0 and std = sqrt(2Dt). The file **All bacteria + time.mov** is a sample movie created by this simulation.
 
 **HeavyTail_sim.m:** simulation of Listeria spread where the size of the hop is sampled (using inverse transform sampling)
 from a custom heavy-tailedp polynomial 1/u^alpha, where alpha determines the heaviness of the distribution's tail. The
