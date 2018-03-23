@@ -12,7 +12,8 @@ is approximately similar to the slope of the radial distance to the center of ma
 according to the variable called **plotevery** in line 19 of the main program.
 
 **Gaussian_sim.m:** simulation of Listeria spread where the size of the hop is sampled from a Normal distribution
-with mean = 0 and std = sqrt(2Dt). The file **All bacteria + time.mov** is a sample movie created by this simulation.
+with mean = 0 and std = sqrt(2Dt). The file **All bacteria + time.mov** is a sample movie created by this simulation. If
+two diffusion coefficients are used simultaneously, then a movie such as **TwoDMovie + Time.avi** is produced.
 
 **HeavyTail_sim.m:** simulation of Listeria spread where the size of the hop is sampled (using inverse transform sampling)
 from a custom heavy-tailedp polynomial 1/u^alpha, where alpha determines the heaviness of the distribution's tail. The
@@ -24,4 +25,4 @@ distribution's second moment converges only when alpha > 3.
 by two diffusion coefficients. The ratio of the diffusion coefficients is set by **cFactor**. In addition, the variable
 **hostCell** mimics the extrusion of epithelial cells from the intestinal villi. In the simulation, host cell extrusion
 events lead to the death of bacteria inside the radius of the host cell. The simulation keeps track of the number of
-extruded bacteria as well as the number of bacteria spreading through the epithelium. The file **TwoDMovie + Time.avi** is a sample movie created by this simulation.
+extruded bacteria as well as the number of bacteria spreading through the epithelium.
