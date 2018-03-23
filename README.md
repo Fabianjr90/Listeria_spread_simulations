@@ -24,4 +24,4 @@ distribution's second moment converges only when alpha > 3.
 by two diffusion coefficients. The ratio of the diffusion coefficients is set by **cFactor**. In addition, the variable
 **hostCell** mimics the extrusion of epithelial cells from the intestinal villi. In the simulation, host cell extrusion
 events lead to the death of bacteria inside the radius of the host cell. The simulation keeps track of the number of
-extruded bacteria as well as the number of bacteria spreading through the epithelium.
+extruded bacteria as well as the number of bacteria spreading through the epithelium. The file **TwoDMovie + Time.avi** is a sample movie created by this simulation.
