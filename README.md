@@ -26,3 +26,6 @@ by two diffusion coefficients. The ratio of the diffusion coefficients is set by
 **hostCell** mimics the extrusion of epithelial cells from the intestinal villi. In the simulation, host cell extrusion
 events lead to the death of bacteria inside the radius of the host cell. The simulation keeps track of the number of
 extruded bacteria as well as the number of bacteria spreading through the epithelium.
+
+**persistentBoundaries.m** simulation of Listeria spread where the bacteria spread with some persistence (1/beta) and have
+a gamma probability of crossing the host cell boundaries. The file **persistBound.mov** is a sample movie created by this simulation (early steps only).
